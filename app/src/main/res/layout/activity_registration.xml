@@ -4,38 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RegistrationActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="110dp"
-        android:layout_marginEnd="200dp"
-        android:text="LOGIN"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uiLog" />
-
-    <Button
-        android:id="@+id/regBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="#6200EF"
+        android:layout_marginEnd="30dp"
         android:text="REGISTER"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uiLog" />
+        app:layout_constraintTop_toBottomOf="@+id/uiReg" />
 
-    <TextView
-        android:id="@+id/uiLog"
+    <Button
+        android:id="@+id/logBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="#6200EF"
         android:text="Login"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uiReg" />
+
+    <TextView
+        android:id="@+id/uiReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
         android:textColor="@color/purple_500"
         android:textSize="42sp"
         android:textStyle="bold"
@@ -44,16 +43,16 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/bgRight"
+        android:id="@+id/bgLeft"
         android:layout_width="210dp"
         android:layout_height="450dp"
-        android:src="@drawable/bg_right"
+        android:src="@drawable/bg_left"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card"
+        android:id="@+id/card2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -70,11 +69,24 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/loginIn"
+                android:id="@+id/nameReg"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:drawableTint="#4A4A4A"
+                android:hint="Name"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/logReg"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:drawableStart="@drawable/ic_email"
                 android:drawablePadding="10dp"
@@ -83,7 +95,7 @@
                 android:textSize="20dp" />
 
             <EditText
-                android:id="@+id/passIn"
+                android:id="@+id/passReg"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -93,7 +105,6 @@
                 android:drawablePadding="10dp"
                 android:drawableTint="#4A4A4A"
                 android:hint="Passwod"
-                android:inputType="textPassword"
                 android:textSize="20dp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -103,9 +114,9 @@
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:text="Login"
-        app:layout_constraintBottom_toBottomOf="@+id/card"
-        app:layout_constraintEnd_toEndOf="@+id/card"
-        app:layout_constraintStart_toStartOf="@+id/card"
-        app:layout_constraintTop_toBottomOf="@+id/card" />
+        app:layout_constraintBottom_toBottomOf="@+id/card2"
+        app:layout_constraintEnd_toEndOf="@+id/card2"
+        app:layout_constraintStart_toStartOf="@+id/card2"
+        app:layout_constraintTop_toBottomOf="@+id/card2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

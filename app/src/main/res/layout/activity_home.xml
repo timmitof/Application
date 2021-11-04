@@ -29,7 +29,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/ic_add"
-            android:backgroundTint="#FF9800"
+            android:backgroundTint="#FFB700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/settings_button"
             app:layout_constraintStart_toEndOf="@id/diary_button"
@@ -48,15 +48,15 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <org.naishadhparmar.zcustomcalendar.CustomCalendar
-        android:id="@+id/calendar"
+    <CalendarView
+        android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,9 @@
         <entry key="..\:/Users/timmi/AndroidStudioProjects/Application/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Users/timmi/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/timmi/AndroidStudioProjects/Application/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable/bottom_menu_bg.xml" value="0.2713541666666667" />
+        <entry key="app/src/main/res/drawable/login_btn_bg.xml" value="0.2713541666666667" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.23007246376811594" />
       </map>

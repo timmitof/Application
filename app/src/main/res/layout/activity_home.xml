@@ -29,7 +29,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/ic_add"
-            android:backgroundTint="#FFB700"
+            android:backgroundTint="#FFDD00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/settings_button"
             app:layout_constraintStart_toEndOf="@id/diary_button"

@@ -10,11 +10,15 @@
         <entry key="..\:/Users/timmi/AndroidStudioProjects/Application/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Users/timmi/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/timmi/AndroidStudioProjects/Application/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable/bg_left.xml" value="0.2564814814814815" />
+        <entry key="app/src/main/res/drawable/bg_right.xml" value="0.2564814814814815" />
         <entry key="app/src/main/res/drawable/bottom_menu_bg.xml" value="0.2713541666666667" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.22592592592592592" />
+        <entry key="app/src/main/res/drawable/ic_calendar.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/drawable/login_btn_bg.xml" value="0.2713541666666667" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
-        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.25" />
       </map>
     </option>
   </component>

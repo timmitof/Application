@@ -9,28 +9,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="200dp"
         android:text="LOGIN"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uiLog" />
+        app:layout_constraintTop_toTopOf="@id/bgRight" />
 
     <Button
         android:id="@+id/regBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="#5545D5"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:color/transparent"
         android:text="REGISTER"
         android:textColor="@color/white"
         android:textSize="25dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uiLog" />
+        app:layout_constraintEnd_toEndOf="@id/bgRight"
+        app:layout_constraintTop_toTopOf="@id/bgRight" />
 
     <TextView
         android:id="@+id/uiLog"

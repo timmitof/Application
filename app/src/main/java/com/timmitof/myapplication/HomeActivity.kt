@@ -44,6 +44,7 @@ class HomeActivity : AppCompatActivity() {
         }
         positiveButton.setOnClickListener {
             checkField(headEditText, textEditText, dialog)
+            dialog.dismiss()
         }
         dialog.show()
     }
@@ -56,8 +57,8 @@ class HomeActivity : AppCompatActivity() {
 
         var result = ""
 
-        for (item in array){
-            result += "$item"
+        for (i in array){
+            result += "$i\n"
         }
         resultNotes.text = result
     }

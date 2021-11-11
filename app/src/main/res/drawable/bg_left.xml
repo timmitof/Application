@@ -4,8 +4,8 @@
         android:topRightRadius="30dp"
         android:bottomRightRadius="30dp"/>
     <gradient
-        android:startColor="@color/purple_200"
-        android:centerColor="@color/purple_500"
-        android:endColor="@color/purple_700"
+        android:startColor="#8800FF"
+        android:centerColor="#FF00FB"
+        android:endColor="#FF00DD"
         android:angle="90"/>
 </shape>

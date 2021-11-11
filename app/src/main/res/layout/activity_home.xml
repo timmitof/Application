@@ -69,6 +69,7 @@
         >
 
         <TextView
+            android:id="@+id/textNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Notes"
@@ -79,6 +80,13 @@
             android:textSize="20sp"
             android:textStyle="bold"
             />
+
+        <TextView
+            android:id="@+id/resultNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textNotes"
+            android:layout_marginTop="20dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

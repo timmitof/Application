@@ -31,18 +31,6 @@
         app:layout_constraintStart_toStartOf="@id/bgLeft"
         app:layout_constraintTop_toTopOf="@id/bgLeft" />
 
-    <TextView
-        android:id="@+id/uiReg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registration"
-        android:textColor="@color/purple_500"
-        android:textSize="42sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/bgLeft"
         android:layout_width="210dp"

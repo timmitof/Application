@@ -32,18 +32,6 @@
         app:layout_constraintEnd_toEndOf="@id/bgRight"
         app:layout_constraintTop_toTopOf="@id/bgRight" />
 
-    <TextView
-        android:id="@+id/uiLog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:textColor="@color/purple_500"
-        android:textSize="42sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/bgRight"
         android:layout_width="210dp"

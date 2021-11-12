@@ -58,7 +58,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/white">
 
             <EditText
                 android:id="@+id/loginIn"
@@ -69,8 +70,10 @@
                 android:layout_marginBottom="10dp"
                 android:drawableStart="@drawable/ic_email"
                 android:drawablePadding="10dp"
-                android:drawableTint="#4A4A4A"
+                android:drawableTint="#FF4C4C4C"
                 android:hint="Login"
+                android:textColorHint="#4C4C4C"
+                android:textColor="#FF4C4C4C"
                 android:textSize="20dp" />
 
             <EditText
@@ -82,8 +85,10 @@
                 android:layout_marginBottom="40dp"
                 android:drawableStart="@drawable/ic_lock"
                 android:drawablePadding="10dp"
-                android:drawableTint="#4A4A4A"
+                android:drawableTint="#FF4C4C4C"
                 android:hint="Password"
+                android:textColorHint="#FF4C4C4C"
+                android:textColor="#FF4C4C4C"
                 android:inputType="textPassword"
                 android:textSize="20dp" />
         </LinearLayout>

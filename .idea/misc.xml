@@ -17,9 +17,9 @@
         <entry key="app/src/main/res/drawable/ic_calendar.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/drawable/login_btn_bg.xml" value="0.2713541666666667" />
         <entry key="app/src/main/res/layout/activity_diary.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.25" />
         <entry key="app/src/main/res/layout/add_notes.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.11727456940222898" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.12411347517730496" />

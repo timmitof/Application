@@ -19,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        addBtn = findViewById(R.id.addNotesBtn)
+        addBtn = findViewById(R.id.fab)
         resultNotes = findViewById(R.id.resultNotes)
 
         addBtn.setOnClickListener{

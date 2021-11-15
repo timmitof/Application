@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <Button
-        android:id="@+id/cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Отменить"
-        android:background="@android:color/transparent"
-        />
-
+    android:layout_width="360dp"
+    android:layout_height="450dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_alert">
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="440dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_alert2">
     <EditText
-        android:id="@+id/heading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/head"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:hint="Заголовок"
         android:background="@android:color/transparent"
         android:textSize="30sp"
@@ -24,30 +22,47 @@
         android:layout_marginTop="30dp"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Текст"
-        android:textSize="25sp"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="16dp"
-        />
-
     <EditText
         android:id="@+id/text"
-        android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp" />
+        android:gravity="top"
+        android:layout_marginTop="80dp"
+        android:hint="Текст"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
 
     <Button
         android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F700FF"
+        android:layout_marginEnd="50dp"
         android:text="Добавить"
-        android:layout_marginBottom="16dp"/>
+        />
 
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:text="Отменить"
+        android:backgroundTint="#F700FF"
+        />
+
+    </LinearLayout>
+</LinearLayout>
 
 </LinearLayout>

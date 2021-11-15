@@ -6,14 +6,21 @@ import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContentProviderCompat.requireContext
 import com.google.android.material.tabs.TabLayout
+import com.timmitof.myapplication.models.notes
 
 class HomeActivity : AppCompatActivity() {
-    var array: ArrayList<String> = ArrayList()
+    var arrayHead: ArrayList<String> = ArrayList()
+    var arrayText: ArrayList<String> = ArrayList()
 
     lateinit var diaryBtn: ImageButton
     lateinit var calendarBtn: ImageButton
     lateinit var addBtn: ImageButton
     lateinit var resultNotes: TextView
+
+//    lateinit var cancelBtn: Button
+//    lateinit var addButton: Button
+//    lateinit var headEt: EditText
+//    lateinit var textEt: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,10 +29,17 @@ class HomeActivity : AppCompatActivity() {
         addBtn = findViewById(R.id.fab)
         resultNotes = findViewById(R.id.resultNotes)
 
+//        cancelBtn = findViewById(R.id.cancel)
+//        addButton = findViewById(R.id.add)
+//        headEt = findViewById(R.id.head)
+//        textEt = findViewById(R.id.text)
+
         addBtn.setOnClickListener{
             addNotesDialog()
+
         }
     }
+
     private fun addNotesDialog(){
         val alert = AlertDialog.Builder(this)
         val inflater = layoutInflater.inflate(R.layout.add_notes, null)
@@ -34,7 +48,7 @@ class HomeActivity : AppCompatActivity() {
         val negativeButton: Button = inflater.findViewById(R.id.cancel)
         val positiveButton: Button = inflater.findViewById(R.id.add)
 
-        val headEditText: EditText = inflater.findViewById(R.id.heading)
+        val headEditText: EditText = inflater.findViewById(R.id.head)
         val textEditText: EditText = inflater.findViewById(R.id.text)
 
         val dialog = alert.create()
@@ -52,12 +66,16 @@ class HomeActivity : AppCompatActivity() {
     private fun checkField(headEditText: EditText, textEditText: EditText, dialog: AlertDialog) {
         val headText = headEditText.text.toString()
         val textText = textEditText.text.toString()
-        array.add(headText)
-        array.add(textText)
+        arrayHead.add(headText)
+        arrayText.add(textText)
 
         var result = ""
 
-        for (i in array){
+        for (i in arrayHead){
+            result += "$i\n"
+        }
+
+        for (i in arrayText){
             result += "$i\n"
         }
         resultNotes.text = result

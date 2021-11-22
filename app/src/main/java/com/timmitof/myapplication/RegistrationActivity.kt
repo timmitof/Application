@@ -3,7 +3,6 @@ package com.timmitof.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -27,9 +26,7 @@ class RegistrationActivity : AppCompatActivity() {
         logReg = findViewById(R.id.logReg)
         passReg = findViewById(R.id.passReg)
 
-        buttonLog.setOnClickListener{
-            onBackPressed()
-        }
+
 
         btnLog.setOnClickListener {
 

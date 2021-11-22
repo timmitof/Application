@@ -4,9 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
-import androidx.core.content.ContentProviderCompat.requireContext
-import com.google.android.material.tabs.TabLayout
-import com.timmitof.myapplication.models.notes
+import com.timmitof.myapplication.R
 
 class HomeActivity : AppCompatActivity() {
     var arrayHead: ArrayList<String> = ArrayList()
@@ -80,5 +78,4 @@ class HomeActivity : AppCompatActivity() {
         }
         resultNotes.text = result
     }
-
 }

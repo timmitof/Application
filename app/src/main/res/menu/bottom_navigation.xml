@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/calendar"
+        android:title="Мой календарик"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/place_holder"
+        android:title=""
+        android:enabled="false"/>
+
+    <item android:id="@+id/book"
+        android:title="Мои мысли"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_book"/>
+</menu>

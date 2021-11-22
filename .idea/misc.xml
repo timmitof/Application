@@ -19,15 +19,17 @@
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.22592592592592592" />
         <entry key="app/src/main/res/drawable/ic_book.xml" value="0.23148148148148148" />
         <entry key="app/src/main/res/drawable/ic_calendar.xml" value="0.21574074074074073" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.30666666666666664" />
         <entry key="app/src/main/res/drawable/ic_notes.xml" value="0.24351851851851852" />
         <entry key="app/src/main/res/drawable/login_btn_bg.xml" value="0.2713541666666667" />
         <entry key="app/src/main/res/layout/activity_diary.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.25" />
         <entry key="app/src/main/res/layout/add_notes.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.11727456940222898" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.14" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.12411347517730496" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.2953125" />
       </map>
     </option>
   </component>

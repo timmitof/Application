@@ -26,18 +26,20 @@ class SecondFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_second, container, false)
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+        val view = inflater.inflate(R.layout.fragment_second, container, false)
 
         btnLog = view.findViewById(R.id.btnLogin2)
-        buttonLog = view.findViewById(R.id.logBtn)
+        buttonLog = view.findViewById(R.id.replaceLog)
 
         nameReg = view.findViewById(R.id.nameReg)
         logReg = view.findViewById(R.id.logReg)
         passReg = view.findViewById(R.id.passReg)
+
+        return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         btnLog.setOnClickListener {
 
@@ -76,7 +78,7 @@ class SecondFragment : Fragment() {
             }
 
             if (name != null && login != null && pass != null) {
-                val intent = activity?.startActivity(intent, )
+                val intent = Intent(requireActivity(), HomeActivity::class.java)
                 startActivity(intent)
             }
 

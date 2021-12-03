@@ -1,6 +1,6 @@
 package com.timmitof.myapplication.models
 
-data class notes(
-    val head: String,
+data class NotesClass(
+    val title: String,
     val text: String
 )
